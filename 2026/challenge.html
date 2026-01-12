@@ -115,6 +115,49 @@
                                 <a href="#methodology-track">mapping methodology</a>.
                             </p>
                         </div>
+
+                        <div class="section">
+                            <div class="about-content" style="font-size: 14pt">
+                                <h2 class="title">
+                                    <span style="color: #dd0a37">Submission Guidelines</span>
+                                </h2>
+                            </div>
+
+                            <div class="about-content" style="font-size: 14pt">
+                                <p>Workflow for submissions of the Challenge:</p>
+                                <ol>
+                                    <li><b>Interest for participation</b> by February 28th 2026 AoE.</li>
+                                    <li>
+                                        <b>Results submission</b> by April 14th 2026 AoE (participants received
+                                        submissions details via e-mail).
+                                    </li>
+                                    <li><b>Proceedings (ONLY FOR TRACK 3):</b></li>
+                                    <ul>
+                                        <li><b>Submit short paper (5-9 pages)</b> by April 30th 2026.</li>
+                                        <li>Short paper will be <b>reviewed by PC/OC</b>.</li>
+                                        <li>
+                                            <b>If paper is accepted, it</b> will be published within the proceedings of
+                                            KGCW.
+                                        </li>
+                                        <li><b>Camera ready</b> submission by May 24th 2024.</li>
+                                    </ul>
+                                </ol>
+
+                                <p class="text-center">
+                                    Do you want to ask questions? Join us
+                                    <a
+                                        href="https://join.slack.com/t/kg-construct/shared_invite/zt-1ftm8ebvo-qtu4xC_psKBZrgqF8ZPMtw"
+                                        >in slack</a
+                                    >
+                                </p>
+
+                                <p class="text-center">
+                                    At least one author of each tool needs to present the results during the workshop
+                                    <br />(virtual presentations are not allowed)
+                                </p>
+                            </div>
+                        </div>
+
                         <div id="performance-track" class="section">
                             <div class="about-content" style="font-size: 14pt">
                                 <h2 class="title">
@@ -341,7 +384,81 @@
                                 <h2 class="title">
                                     <span style="color: #dd0a37">Track 3: Mapping Methodology</span>
                                 </h2>
+                                <p>
+                                    Although RML has become the de facto standard for constructing knowledge graphs from
+                                    heterogeneous data sources, the design space for defining and executing mappings is
+                                    far from closed. There remains significant potential to explore alternative
+                                    approaches to generating knoweldge graph from heterogeneous data. This challenge
+                                    track invites participants to push beyond existing approaches and propose novel
+                                    solutions for knowledge graph generation from heterogeneous data.
+                                    <b
+                                        >Participants may build upon RML and its ecosystem, introduce extensions or
+                                        optimizations, or depart from RML entirely in favor of new mapping models,
+                                        languages, automation or processing techniques. The focus is on innovation in
+                                        how mappings are defined, and executed, as well as on demonstrating practical
+                                        benefits such as (re-)usability, and expressiveness.</b
+                                    >
+                                    By encouraging a broad range of approaches, this challenge aims to foster
+                                    comparative insights into alternative techniques for knowledge graph construction
+                                    from heterogeneous data.
+                                </p>
 
+                                <h3 class="title" style="margin-top: 1em">
+                                    <span style="color: #dd0a37">Task Description</span>
+                                </h3>
+
+                                <p>For this task, we provide the following resources:</p>
+                                <ul>
+                                    <li>An input dataset</li>
+                                    <li>An ontology</li>
+                                    <li>A set of queries in two formats:</li>
+                                    <ul>
+                                        <li>SPARQL</li>
+                                        <li>Natural language</li>
+                                    </ul>
+                                </ul>
+
+                                <p>
+                                    Participants are expected to generate knowledge graph that can answer the queries
+                                    provided, using any techniques that they deemed to be the most suitable to solve the
+                                    task at hand.
+                                </p>
+                                <p>
+                                    As an inspiration, one could use the input dataset as the starting point to
+                                    automatically generate the first draft of mappings which can be further manually
+                                    refined to generate a knowledge graph that could answer the provided queries.
+                                </p>
+
+                                <div class="about-content">
+                                    <h3 class="title" style="margin-top: 1em">
+                                        <span style="color: #dd0a37">Evaluation Criteria</span>
+                                    </h3>
+
+                                    <p>Submissions must evaluate the following metrics:</p>
+                                    <ul>
+                                        <li>
+                                            <b>Reproducibility</b> - Is the technique reproducible (e.g., are the
+                                            techniques employing LLMs reproducible?)
+                                        </li>
+                                        <li>
+                                            <b>Automation</b> - Are the mapping definitions automatically generated?
+                                        </li>
+                                        <li>
+                                            <b>Hybrid</b> - If the mappings are autoamtically defined, what is the delta
+                                            needed to get to the final definition of mappings to generate the knowledge
+                                            graph?
+                                        </li>
+                                        <li>
+                                            <b>Usability</b> - Is the technique usable outside the scope of the
+                                            challenge?
+                                        </li>
+                                        <li>
+                                            <b>Starting point</b> - What is the starting input (meta-)data used to
+                                            define the mappings? (i.e., do you use input data or the provided ontology
+                                            as the starting point to define the mappings?)
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
